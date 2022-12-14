@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "secrets2": {
+      "type": "secrets.user"
+    },
+    "appConfig1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.AppConfiguration/configurationStores/uks-gm-dai-aad-function-appconfig-dev",
+      "type": "appConfig.azure",
+      "connectionId": "AppConfig",
+      "dynamicId": null
+    }
+  }
+}

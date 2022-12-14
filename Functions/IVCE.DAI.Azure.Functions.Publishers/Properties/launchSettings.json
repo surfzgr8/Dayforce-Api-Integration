@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IVCE.DAI.Azure.Functions.Publishers": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

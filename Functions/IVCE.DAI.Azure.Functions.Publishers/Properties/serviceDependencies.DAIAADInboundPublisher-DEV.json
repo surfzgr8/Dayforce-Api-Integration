@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "appConfig1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.AppConfiguration/configurationStores/uksazdaiaadappconfig",
+      "type": "appConfig.azure",
+      "connectionId": "AppConfigTest",
+      "secretStore": "AzureAppSettings"
+    },
+    "secrets1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/UKSAZDAIAADKV",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri",
+      "secretStore": "AzureAppSettings"
+    },
+    "storage1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/uksdaifuncstoragedev",
+      "type": "storage.azure",
+      "connectionId": "AzureFunctionStorage",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

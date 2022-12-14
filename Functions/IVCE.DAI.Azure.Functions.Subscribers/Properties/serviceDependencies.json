@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "storage1": {
+      "type": "storage",
+      "connectionId": "StorageConnectionString"
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    },
+    "appConfig1": {
+      "type": "appConfig",
+      "connectionId": "AppConfig",
+      "dynamicId": null
+    }
+  }
+}

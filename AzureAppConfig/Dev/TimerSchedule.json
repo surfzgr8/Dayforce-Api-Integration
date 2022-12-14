@@ -1,0 +1,22 @@
+[
+	{
+		"id": "1",
+		"ScheduledTime": "07:00",
+		"ScheduledApplication": "ESP_AAD"
+	},
+	{
+		"id": "2",
+		"ScheduledTime": "19:00",
+		"ScheduledApplication": "ESP_AAD"
+	},
+	{
+		"id": "3",
+		"ScheduledTime": "07:30",
+		"ScheduledApplication": "PRT_AAD"
+	},
+	{
+		"id": "4",
+		"ScheduledTime": "19:30",
+		"ScheduledApplication": "PRT_AAD"
+	}
+]

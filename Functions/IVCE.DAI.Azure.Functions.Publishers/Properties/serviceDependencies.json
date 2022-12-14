@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureFunctionStorage"
+    },
+    "appConfig2": {
+      "type": "appConfig",
+      "connectionId": "AppConfig",
+      "dynamicId": null
+    },
+    "secrets2": {
+      "type": "secrets",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    },
+    "appConfig1": {
+      "type": "appConfig",
+      "connectionId": "AppConfig",
+      "dynamicId": null
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    }
+  }
+}
